@@ -24,7 +24,7 @@ function App(){
         
         <ul>
         
-          <li className='marg'> <Link to="/"  ><img src='https://www.lavillaroyale.lt/wp-content/uploads/2017/12/151433509593583.png' id='logo' alt='Royal Inn'/></Link></li>
+          <li className='marg'> <Link to="/Royale"  ><img src='https://www.lavillaroyale.lt/wp-content/uploads/2017/12/151433509593583.png' id='logo' alt='Royal Inn'/></Link></li>
        
         <li className='marg' id='iop'><Link to="/Abtcomp" className="NavDiv">About Us</Link></li>
         <li className='marg'><Link to="/Hotels" className="NavDiv">Hotels</Link></li>
@@ -38,7 +38,7 @@ function App(){
 
 
 <Switch>
-  <Route exact path="/"><Home/></Route>
+  <Route exact path="/Royale"><Home/></Route>
   <Route path="/Abtcomp"><AboutUs/></Route>
   <Route path="/Hotels"><Hotel/></Route>
   <Route path="/Contact"><Contact/></Route>
